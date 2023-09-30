@@ -14,6 +14,5 @@ with
             --, phone
         from {{ source('erp', 'customers') }}
     )
-    
 select *
 from fonte_clientes
